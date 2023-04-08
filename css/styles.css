@@ -1,0 +1,312 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/******************************************************/
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    margin-bottom: 0;
+}
+
+.navbar {
+    font-size: 1.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+.container-fluid-title {
+    padding: 3% 15% 8%;
+    height: auto;
+}
+
+.container-fluid-navbar {
+    padding: 1% 15% 0%;
+    height: auto;
+}
+
+.row-title {
+    margin-top: 8rem; /* 13.5rem */
+}
+
+.col-lg-6 h1 {
+    padding-bottom: 2.5rem;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.col-lg-6 img {
+    height: 90%;
+    transform: rotate(25deg);
+
+    position: absolute;
+    right: 22%;
+}
+
+.btn-lg {
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/******************************************************/
+
+#features {
+    margin: 0;
+    padding: 0;
+
+    background-color: white;
+
+    position: relative;
+
+    width: 100vw;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row-features {
+    margin: 5rem 0;
+}
+
+.container-fluid-features {
+    padding: 5% 12%;
+    height: auto;
+}
+
+.custom-col {
+    margin: 0;
+    padding: 1rem 4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.custom-col h3,
+.custom-col p,
+.custom-col span {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    text-align: center;
+}
+
+.custom-col span path:hover {
+    color: #ff4c68;
+}
+
+.custom-col p {
+    color: #8f8f8f;
+}
+
+.custom-col h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/******************************************************/
+
+#testimonials {
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+}
+
+.carousel-item {
+    padding: 9% 15% 7%;
+}
+
+#testimonials img {
+    width: 7rem;
+    margin: 2vw;
+    border-radius: 100%;
+}
+
+#testimonials h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#press {
+    padding: 1.5rem 15% 9%;
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.press-logo {
+    width: 20%;
+    margin: 0 1rem 1rem;
+}
+
+/******************************************************/
+
+#pricing {
+    padding: 7% 15%;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.5;
+    color: black;
+}
+
+#pricing h2 {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+#pricing p {
+    color: black;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.row-pricing h3 {
+    margin: 0.5rem 0;
+    font-weight: 800;
+    color: white;
+}
+
+.row-pricing h2 {
+    font-weight: 500;
+    font-size: 2.5rem !important;
+    line-height: 2;
+    color: #ef8172;
+}
+
+.row-pricing p {
+    font-weight: 500;
+    font-size: 1.2rem !important;
+}
+
+.custom-card {
+    border-color: #ff4c68;
+    border-width: 2px;
+}
+
+.custom-card-header {
+    background-color: #ff4c68;
+}
+
+.custom-btn {
+    margin: 0;
+    color: white;
+    background-color: #ef8172;
+    border: none;
+    font-weight: 600;
+}
+
+.custom-btn:hover {
+    border: none;
+    background-color: #ff4c68;
+}
+
+.custom-first-btn {
+    margin: 0;
+    color: #ef8172;
+    border-color: #ef8172;
+    border-width: 2px;
+    font-weight: 600;
+}
+
+.custom-first-btn:hover {
+    margin: 0;
+    color: white;
+    border-color: #ef8172;
+    background-color: #ef8172;
+}
+
+/******************************************************/
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+    padding: 3% 15%;
+}
+
+#cta h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 1.5;
+    padding-bottom: 1rem;
+}
+
+/******************************************************/
+
+#footer {
+    text-align: center;
+}
+
+#footer span {
+    display: inline-block;
+    padding: 2rem 0.5rem 0.5rem;
+}
+
+#footer p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    color: #8f8f8f;
+}
+
+
+/******************************************************/
+
+/***************************** MEDIA QUERIES *************************/
+
+@media (max-width: 1260px) and (min-width: 1028px) {
+
+    .col-lg-6 img {
+        transform: rotate(10deg);
+        right: 20%;
+    }
+
+}
+
+@media (max-width:1028px) and (min-width: 992px) {
+
+    .col-lg-6 img {
+        transform: rotate(0deg);
+        right: 17%;
+    }
+
+    #press {
+        padding: 1.5rem 10% 9%;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .col-lg-6 img {
+        transform: rotate(0deg);
+        position: static;
+    }
+
+    #press {
+        padding: 1.5rem 8% 9%;
+    }
+
+}
+
+@media (max-width: 853px) {
+
+    #press {
+        padding: 1.5rem 3% 9%;
+    }
+
+}
